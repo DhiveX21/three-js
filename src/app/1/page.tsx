@@ -9,7 +9,6 @@ type Props = {};
 
 const One = (props: Props) => {
   useEffect(() => {
-    console.log("akwodawkod");
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(
       75,
